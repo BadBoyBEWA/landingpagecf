@@ -80,12 +80,12 @@ export default function Membership({ onGetAccess }) {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            {/* VIP Card */}
+            {/* ELITE Card */}
             <div className="bg-surface-container-lowest rounded p-10 border border-outline-variant/15 flex flex-col shadow-sm h-full">
               <div className="mb-8">
-                <h3 className="font-headline text-2xl font-bold text-on-background uppercase tracking-tight mb-2">VIP</h3>
+                <h3 className="font-headline text-2xl font-bold text-on-background uppercase tracking-tight mb-2">ELITE</h3>
                 <div className="flex items-baseline gap-1">
-                  <span className="font-headline text-4xl font-black text-on-background tracking-tighter">$14.99</span>
+                  <span className="font-headline text-4xl font-black text-on-background tracking-tighter">$159.99</span>
                   <span className="font-body text-sm text-on-surface-variant">/mo</span>
                 </div>
               </div>
@@ -107,30 +107,30 @@ export default function Membership({ onGetAccess }) {
                 onClick={onGetAccess}
                 className="w-full py-4 font-headline font-bold text-sm tracking-widest text-primary border border-outline-variant/15 rounded hover:bg-surface-container-low transition-all uppercase"
               >
-                SELECT VIP
+                SELECT ELITE
               </button>
             </div>
 
-            {/* ELITE Card */}
+            {/* LEGENDARY Card */}
             <div className="relative rounded p-10 flex flex-col bg-surface-container-lowest/60 backdrop-blur-[20px] border border-primary/20 shadow-[0px_24px_48px_rgba(26,28,28,0.06)] transform md:-translate-y-4 h-full">
               {/* Gradient Top Bar */}
               <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-primary to-primary-container rounded-t"></div>
               <div className="mb-8">
                 <div className="flex justify-between items-start mb-2">
-                  <h3 className="font-headline text-2xl font-bold text-primary uppercase tracking-tight">ELITE</h3>
+                  <h3 className="font-headline text-2xl font-bold text-primary uppercase tracking-tight">LEGENDARY</h3>
                   <span className="px-3 py-1 bg-primary/10 text-primary font-label text-[10px] font-bold tracking-widest uppercase rounded">
                     MOST POPULAR
                   </span>
                 </div>
                 <div className="flex items-baseline gap-1">
-                  <span className="font-headline text-5xl font-black text-on-background tracking-tighter">$29.99</span>
+                  <span className="font-headline text-5xl font-black text-on-background tracking-tighter">$599.99</span>
                   <span className="font-body text-sm text-on-surface-variant">/mo</span>
                 </div>
               </div>
               <ul className="space-y-4 mb-10 flex-grow font-body text-sm text-on-surface-variant">
                 <li className="flex items-start gap-3 font-semibold text-on-background">
                   <span className="material-symbols-outlined text-primary text-xl" style={{ fontVariationSettings: '"FILL" 1' }}>star</span>
-                  <span>Everything in VIP, plus:</span>
+                  <span>Everything in ELITE, plus:</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined text-primary text-xl">check_circle</span>
@@ -149,7 +149,7 @@ export default function Membership({ onGetAccess }) {
                 onClick={onGetAccess}
                 className="w-full py-4 font-headline font-bold text-sm tracking-widest text-on-primary bg-gradient-to-tr from-primary to-primary-container rounded shadow-[0px_24px_48px_rgba(26,28,28,0.06)] hover:brightness-110 transition-all uppercase"
               >
-                SECURE ELITE ACCESS
+                SECURE LEGENDARY ACCESS
               </button>
             </div>
           </div>

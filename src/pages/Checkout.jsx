@@ -14,29 +14,29 @@ function PaymentModal({ isOpen, onClose, method }) {
     PayPal: {
       icon: 'account_balance_wallet',
       color: 'text-[#0070ba]',
-      instruction: 'Please send the total amount to our verified PayPal address:',
-      value: 'payments@innercircle.com',
-      note: 'Include your full name in the transaction notes for faster verification.'
+      instruction: 'Our Team coordinates PayPal address:',
+      value: 'Request via cooperflagg@joinflagg.com',
+      note: 'Payments are typically verified within 15-30 minutes..'
     },
     CashApp: {
       icon: 'attach_money',
       color: 'text-[#00d084]',
-      instruction: 'Scan or use the Cashtag below to complete your payment:',
-      value: '$InnerCircleVIP',
+      instruction: 'Our Team coordinates Cashapp Tag:',
+      value: 'Request via cooperflagg@joinflagg.com',
       note: 'Payments are typically verified within 15-30 minutes.'
     },
     Bitcoin: {
       icon: 'currency_bitcoin',
       color: 'text-[#f7931a]',
       instruction: 'Transfer the equivalent BTC amount to the following secure wallet:',
-      value: 'bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh',
+      value: 'Request via cooperflagg@joinflagg.com',
       note: 'Ensure you account for network fees to avoid payment delays.'
     },
     'Wire Transfer': {
       icon: 'account_balance',
       color: 'text-on-background',
       instruction: 'Our banking coordinates for international wire transfers:',
-      value: 'Request via support@innercircle.com',
+      value: 'Request via cooperflagg@joinflagg.com',
       note: 'Wire transfers can take 1-3 business days to clear.'
     }
   }
@@ -88,12 +88,12 @@ export default function CheckoutPage() {
   const [paymentMethod, setPaymentMethod] = useState('')
 
   const selectedTier = {
-    title: 'ELITE ACCESS',
-    price: '$29.99',
+    title: 'LEGENDARY ACCESS',
+    price: '$599.99',
     perks: [
-      { text: 'Everything in VIP' },
+      { text: 'Full Access to Archive' },
       { text: 'Monthly live Q&A sessions' },
-      { text: 'Exclusive physical member box (annual)' },
+      { text: 'Everything in Elite Pass' },
       { text: 'Voting rights on community impact projects' },
     ]
   }

@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Form from './pages/Form'
 import Checkout from './pages/Checkout'
 import About from './pages/About'
+import ThankYou from './pages/ThankYou'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/form" element={<Form />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/thank-you" element={<ThankYou />} />
       </Routes>
     </Router>
   )
